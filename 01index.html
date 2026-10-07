@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css3</title>
+    <link rel="stylesheet" href="o1estilo.css">
+</head>
+<body>
+    <header>
+        <h1>INTRODUCCIÓN A CSS3</h1>
+    </header>
+    <main>
+        <p>Cascading style Structure (Estructura de estilos en cascada). <br>
+            Permite definir la presentación visual de un documento HTML.
+        </p>
+        <p>
+            HTML es el esqueleto que tiene una casa, CSS es la pintura, la decoración y dispocición <br>
+            de los muebles. Para entender esta analogía correctamente vamos a desglosarla por niveles 
+        </p>
+        <h2>Los Fundamentos</h2>
+        <ol>
+            <li>
+                <p>
+                    <b>Que es la sintaxis de CSS?</b><br>
+                    Se enfoca en <strong>reglas.</strong> Una regla le indica al navegador.
+                    <em>"Busca este elemento de HTML y cámbiale estas características."</em>
+                </p>
+                <p>La estructura básica es: 
+                    <ul>
+                        <li><b>Selector:</b>El elemento HTML que vas a afectar.</li>
+                        <li><b>Declaración:</b>La declaración va entre () y contiene la propiedad y el valor.</li>
+                        <li><b>Propiedad:</b>El atributo que se desea cambiar (el. Color, Fuente)</li>
+                        <li><b>Valor:</b>El ajuste específico (ej. red, arial, 30px)</li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <p><b>Como se conectan CSS a HTML?</b><br>
+                Existen 3 formas de aplicar estilos: <i>externa, interna y de línea.</i><br>
+                La externa es la que se usa en proyectos reales por su orden y eficiencia.
+                </p>
+                <ol>
+                    <li><b>Estilos externos: </b><i>Se crea un archivo separado llamado estilo.css y se lo vincula en el head.</i></li>
+                    <li><b>Estilos internos: </b><i>Se usa la etiqueta <strong>style </strong>dentro del head.</i></li>
+                    <li><b>Estilos de línea: </b><i>Se usa el atributo style en la etiqueta HTML, funciona pero no es recomendable.</i></li>
+                </ol>
+            </li>
+            <li>
+                <p><b>El modelo caja</b><br>
+                Es el concepto más importante de CSS. Para el navegador, <strong>todo </strong>en una página web es una caja rectangular.
+                </p>
+                <p>Cada caja tiene 4 partes:
+                    <ul>
+                        <li><b>Contend: </b><i>El texto o imagen real.</i></li>
+                        <li><b>Padding: </b><i>El espacio es transparente alrededor del contenido.</i></li>
+                        <li><b>Border: </b><i>Una línea que rodea el relleno y contenido.</i></li>
+                        <li><b>Margin: </b><i>El espacio exterior que separa esta caja de otras cajas.</i></li>
+                    </ul>
+                </p>
+            </li>
+
+        </ol>
+    </main>
+    <footer>
+        Desarrollado por<strong>&copy; Benjamin Cari</strong> 2026
+    </footer>
+</body>
+</html>

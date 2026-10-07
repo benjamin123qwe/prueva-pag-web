@@ -1,0 +1,38 @@
+<!--#Selector{propiedad: valor}-->
+
+h1{
+    color:rgb(212, 212, 219);
+    font-size: 40px;
+    text-align: center;
+}
+p{
+    color: blue;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+h2{
+    color: rgb(246, 222, 67);
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+}
+b{
+    color: rgb(170, 103, 234);
+}
+i{
+    color: rgb(98, 246, 98);
+}
+footer{
+    color:rgb(231, 207, 207);
+    font-weight: bold;
+    text-align: center;
+    font-weight: inherit;
+}
+body{
+    background: black;
+}
+li{
+    color: aliceblue;
+}
+strong{
+    color: orange;
+}
